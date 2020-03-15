@@ -1,0 +1,36 @@
+{
+  "id": "8862b2ec-ba0a-4268-9e3f-7309f7a73d3e",
+  "parentId": "761191f2-c4d5-4f4a-867b-60f03b3dcb69",
+  "rootParentId": "761191f2-c4d5-4f4a-867b-60f03b3dcb69",
+  "name": "Find Number - yes",
+  "auto": true,
+  "contexts": [
+    "FindNumber-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FindNumber.FindNumber-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Which color, indigo taco, pink unicorn, or blue grey coffee?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

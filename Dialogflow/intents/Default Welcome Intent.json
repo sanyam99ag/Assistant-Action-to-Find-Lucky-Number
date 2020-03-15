@@ -1,0 +1,41 @@
+{
+  "id": "059e6221-29b5-48f0-ae3e-e2f763c0dda9",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Hi! Let\u0027s guess Lucky Number. So what is your favorite color?",
+            "Hello! Let\u0027s guess Lucky Number. So what is your favorite color?",
+            "Good day! Let\u0027s guess Lucky Number. So what is your favorite color?",
+            "Greetings! Let\u0027s guess Lucky Number. So what is your favorite color?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
